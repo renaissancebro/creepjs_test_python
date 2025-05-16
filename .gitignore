@@ -1,0 +1,60 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+*.log
+
+# Byte-compiled / cache / dist
+*.egg-info/
+*.eggs/
+*.egg
+*.manifest
+*.spec
+dist/
+build/
+pip-wheel-metadata/
+*.whl
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+.ENV/
+.VENV/
+
+# IDE/editor junk
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# Node/JS artifacts
+node_modules/
+package-lock.json
+yarn.lock
+
+# Secrets/configs (if applicable)
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# Custom for your project
+# JS injections / init scripts if they're temporary or dynamic
+injections/*.js  # remove this line if you want to commit JS scripts
+outputs/
+tmp/
+logs/
